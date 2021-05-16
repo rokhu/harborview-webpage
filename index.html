@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Breaking The Barrier - Team Aztech</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico">
+  <style>
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+    A {text-decoration: none;} 
+  </style>
+</head>
+
+<body>
+  <div class="menu-container"></div>
+  <div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Project Introduction</h2>
+            <hr>
+            <p class="text">
+              Welcome! This webpage talks about the Project Breaking The Barriers completed as a Capstone project 
+              by Team Aztech comprising of second-year Masters in Information Management Students from University of 
+              Washington, Seattle done in partnership with the Harborview Medical Center's International Medical Clinic (IMC). Through this project Team Aztech and the medical staff from Harborview Medical Center are trying to 
+              imporve patient experience for Low English Proficiency Patients (LEP) visiting the International medicine Clinic.
+              <br>
+              <br>
+              After the COVID-19 pandemic struck, the clinic made a priority of speeding up patient intake while limiting contact with staff. The clinic also wanted 
+              to make sure that patients were being asked the full list of COVID-19 screening questions.
+              So, Harborview turned to the University of Washington’s Information School and thus this project was born. 
+              <br>
+              <!-- <br> -->
+              
+            </p>
+            <img class="image center max-width-250 add-top-margin-small" style='height: 90%; width: 90%; object-fit: contain' src="img/harb1440.jpeg">
+            <p class="text text-center">
+             <em>A woman undergoes COVID-19 testing at IMC, Harborview</em>
+              <!-- <em>Team Aztech members - Aniruddh Nathani, Nandini Mazumdar, Rohan Khurana and Varun Kandukuri (From Left to Right).</em> -->
+            </p>
+
+            <h2 class="add-top-margin">The Problem</h2>
+            <hr>
+            <p class="text">
+              Over 10,000 patients with Low English Proficiency visit the International Medicine Clinic at Harborview every year for regular checkups and treatments. 
+              These patients are mostly in the age group of 60 and above with limited tech dexterity. Given the current pandemic situation, 
+              the IMC was faced with the challenge of asking their patients screening questions for COVID-19 before checking them in the clininc. 
+              <br>
+              <br>
+              Given the nature of the questions 
+              and the severity of the pandemic, the requirement for active, simple and transparent communication is very high. Besides, the demographics of the visiting patients requires the 
+              clinic to gather information and provide post visit instructions in a total of 7 different languages. These languages are - Amharic, Arabic, Cantonese, Oromo, Somali, Spanish and Vietnamese.
+              <br>
+              <br>
+
+              Currently, the staff at IMC asks the screening questions to the visiting patients in the patient's native langauge and at times to facitlitate the conversation,
+              interpreters speaking the patients native language are called in through a phone or video conferencing. Sometimes this process takes in a lot of time and leads to an inefficient checkin process.
+              In addition, there is also a lack of informational resources on the Covid-19 screening Process.  
+            </p>
+
+            <img class="image center max-width-250 add-top-margin-small" style='height: 90%; width: 90%; object-fit: contain' src="img/Problem.png">
+            <p class="text text-center">
+             <em>A vector graphic representation of a typical patient Check-In process at the IMC</em></p>
+
+            <h2 class="add-top-margin">The Solution</h2>
+            <hr>
+            <p class="text">
+              Our team's approach revolved around the idea of limiting contact between the receptionist and the patient being checked in. Besides we tried to increase access 
+              of educational resources helping the patients in undertanding the COVID-19 testing process and any required post visit instructions.   
+              After paying multiple visits to the clinic, understanding the checkin process first hand and 
+              conducting regular meetings with the hospital staff we were able to develop the following componenents - 
+
+                <h3>1. Front Office </h3>
+                <p class="text">
+                  This component address the patient's interaction with the receptionist. The patient would have access to the web app and would choose the language of their choice from the selection of the above mentioned 7 different languages. 
+                  After the selection they would be asked a set of COVID-19 screening questions in the language selected which can be responded with a 'yes' or a 'no'. After the responding to all the questions the receptionist would be able to see a copy 
+                  of the responses and can take an informed decision.
+                </p>
+                <img class="image center add-top-margin-small" style='height: 90%; width: 90%; object-fit: contain' src="img/fo_4.png">
+                <p class="text text-center">
+                  <em>Snippets representing front office component Workflow</em></p>
+                <h3>2. Back Office </h3>
+                <p class="text">
+                  This component address the patient's interaction with the back office staff where they are provided access to informational video resources for COVID-19 screening . Again the patient would be able to the choose the language of their choice from the available set of 7 different languages. 
+                  Based on their selection, they would be redirected to an instructional video in the patient's chosen language.
+                </p>
+                <img class="image center add-top-margin-small" style='height: 90%; width: 90%; object-fit: contain' src="img/bo_3.png">
+                <p class="text text-center">
+                  <em>Snippets representing back office component Workflow</em></p>
+              
+                <h3>3. End Product</h3>
+                <p class="text">
+                  The end product is a web app that is optimized for a handheld touch based tablet device. The app design was developed after paying multiple visits to the clinic and keeping our end users in mind, specially focussing on creating a web app that is easy to use and has focus on accessibility considerations for people over the age of 60. 
+                </p>
+                <div class="control-group">
+                  <a href="https://www.figma.com/proto/fPdyCzo3GOxgbDn6XUp6po/Harborview?node-id=358%3A3&scaling=scale-down&page-id=358%3A2" target="_blank">
+                    <!-- <button class="custom-button pulse-black" onclick="location.href='https://www.figma.com/proto/fPdyCzo3GOxgbDn6XUp6po/Harborview?node-id=358%3A3&scaling=scale-down&page-id=358%3A2'" target="_blank"></button> </button> -->
+                    <button class="custom-button pulse-black" >Figma Prototype</button>
+                  </a>
+                </div>
+            </p>
+            <h2 class="add-top-margin">Meet The Team</h2>
+            <hr>
+            <p class="text">
+              Being non-native English speakers, members of Team Aztech hail from India and understand how difficult it could for people to communicate and express themseleves in a language that they don't predominantly use. Given the current circumstances of the pandemic all four of us got together with the intention of working together to build something that could ease the burden of the pandemic.
+            <br>
+            </p>
+
+            <img class="image center max-width-250 add-top-margin-small" style='height: 90%; width: 90%; object-fit: contain' src="img/Export.jpg">
+            <p class="text text-center">
+              <em>Team Aztech members - Aniruddh Nathani, Nandini Mazumdar, Rohan Khurana and Varun Kandukuri (From Left to Right).</em>
+              </p>
+          </div>
+          <!-- <div class="flex-item flex-column">
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
